@@ -1,0 +1,14 @@
+statusPageImage:
+  repository: "992382545251.dkr.ecr.us-east-1.amazonaws.com/status-page-app"
+  tag: "latest"
+
+          
+nginxImage:
+  repository: "992382545251.dkr.ecr.us-east-1.amazonaws.com/status-page-app"
+  tag: "latest"
+          
+          
+service:
+  type: LoadBalancer
+  port: 80
+          
